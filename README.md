@@ -1,0 +1,4 @@
+sceditor
+========
+
+SCEditor module
