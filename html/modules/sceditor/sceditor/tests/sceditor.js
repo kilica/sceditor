@@ -36,17 +36,6 @@ module("SCEditor Commands", {
 	}
 });
 
-// most commands are interactive so can't test easily
-test("Code", function() {
-	expect(1);
-
-	this.s.commands.code.exec.call(this.s, null)
-	equal(
-		this.s.getWysiwygEditorValue(),
-		"[code][/code]"
-	);
-});
-
 test("Quote", function() {
 	expect(1);
 
@@ -59,7 +48,7 @@ test("Quote", function() {
 
 test("Quote with author", function() {
 	expect(1);
-	
+
 	this.s.commands.quote.exec.call(this.s, null, "Simple <b>test</b>", "admin")
 	equal(
 		this.s.getWysiwygEditorValue(),

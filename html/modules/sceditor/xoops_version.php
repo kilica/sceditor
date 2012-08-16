@@ -11,7 +11,7 @@ if (!defined('XOOPS_ROOT_PATH')) exit();
 // Define a basic manifesto.
 //
 $modversion['name'] = _MI_SCEDITOR_LANG_SCEDITOR;
-$modversion['version'] = 0.11;
+$modversion['version'] = 0.12;
 $modversion['description'] = _MI_SCEDITOR_DESC_SCEDITOR;
 $modversion['author'] = "HIKAWA Kilica http://xoopsdev.com/";
 $modversion['credits'] = "HIKAWA Kilica";
